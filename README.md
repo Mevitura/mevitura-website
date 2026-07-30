@@ -1,2 +1,0 @@
-# mevitura-website
-Landingpage 
