@@ -180,7 +180,7 @@ p{
 ===================================== */
 
 .hero{
-    padding-top:150px;
+    padding-top:110px;
     padding-bottom:0;
 }
 
@@ -210,7 +210,7 @@ p{
     border-radius:0;
 }
 .hero-logo{
-    margin-bottom:45px;
+    margin-bottom:25px;
 }
 
 .hero-logo img{
