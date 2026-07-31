@@ -17,33 +17,6 @@
     }
 
 }
-
-/* ==========================
-   SMARTPHONE
-========================== */
-
-@media (max-width: 768px) {
-
-    h1 {
-        font-size: 38px;
-    }
-
-    h2 {
-        font-size: 32px;
-    }
-
-    .hero {
-        text-align: center;
-    }
-
-    .hero-image img {
-        height: 420px;
-    }
-
-    .btn-mevitura {
-        width: 100%;
-        justify-content: center;
-    }
    /* ==========================
    SMARTPHONE
 ========================== */
