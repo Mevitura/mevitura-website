@@ -245,52 +245,92 @@ p{
 ===================================== */
 
 .vision-section{
-    padding:30px 0;
+    padding:90px 0;
+    background:#fdfbf7;
+}
+
+.section-title{
     text-align:center;
-}
-
-.section-title span{
-    display:block;
-    letter-spacing:4px;
-    color:var(--color-accent);
-    font-size:14px;
-    font-weight:600;
-    margin-bottom:18px;
-}
-
-.section-title h2{
     margin-bottom:30px;
 }
 
-.vision-intro{
-    max-width:760px;
-    margin:0 auto 70px;
-    font-size:20px;
-}
-.vision-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
+.section-title span{
+    display:inline-block;
+    letter-spacing:4px;
+    font-size:14px;
+    font-weight:600;
+    color:var(--color-accent);
+    text-transform:uppercase;
+    margin-bottom:15px;
 }
 
-@media (min-width: 992px) {
-    .vision-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
- }
+.section-title h2{
+    font-size:48px;
+    margin-bottom:30px;
+    color:var(--color-text);
+}
+
+.vision-intro{
+    max-width:850px;
+    margin:0 auto 70px;
+    text-align:center;
+    font-size:20px;
+    line-height:1.9;
+    color:var(--color-text-light);
+}
+
+.vision-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+}
 
 .vision-card{
-    background:white;
-    padding:40px;
+    background:#ffffff;
+    padding:45px 35px;
     border-radius:24px;
-    box-shadow:var(--shadow-soft);
-    transition:var(--transition);
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+    text-align:center;
+    transition:all .35s ease;
+    border:1px solid rgba(0,0,0,.05);
 }
 
 .vision-card:hover{
     transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.10);
+}
+
+.vision-icon{
+    width:72px;
+    height:72px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:rgba(46,93,63,.10);
+    color:var(--color-primary);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:32px;
 }
 
 .vision-card h3{
+    font-size:28px;
     margin-bottom:20px;
+    color:var(--color-text);
+}
+
+.vision-card p{
+    font-size:17px;
+    line-height:1.8;
+    color:var(--color-text-light);
+}
+
+.vision-footer{
+    max-width:850px;
+    margin:80px auto 0;
+    text-align:center;
+    font-size:24px;
+    font-weight:600;
+    color:var(--color-primary);
+    line-height:1.6;
 }
