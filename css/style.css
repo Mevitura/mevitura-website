@@ -210,12 +210,11 @@ p{
     border-radius:0;
 }
 .hero-logo{
-    margin-bottom:25px;
+    margin-bottom:10px;
 }
 
 .hero-logo img{
-    width:360px;
-    max-width:100%;
+    width:260px;
     height:auto;
 }
 
